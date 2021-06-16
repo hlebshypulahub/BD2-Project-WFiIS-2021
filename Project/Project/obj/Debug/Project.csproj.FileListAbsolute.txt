@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\Project\Project\bin\Debug\SqlClassLibrary.dll
+C:\Users\Administrator\Desktop\Project\Project\bin\Debug\SqlClassLibrary.pdb
+C:\Users\Administrator\Desktop\Project\Project\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project\Project\obj\Debug\SqlClassLibrary.dll
+C:\Users\Administrator\Desktop\Project\Project\obj\Debug\SqlClassLibrary.pdb

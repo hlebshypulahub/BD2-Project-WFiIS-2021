@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ac757a73-bfb6-4015-9b4b-0c32a7cb4434" name="Administrator@MSSQLSERVER39 2021-06-15 20:04:26" runUser="MSSQLSERVER39\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="880ca435-a7ba-4af6-b394-39520a2b3609">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Administrator\Desktop\Project\TestResults\Administrator_MSSQLSERVER39 2021-06-15 20_04_26" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="25" executed="25" passed="22" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>There is already an object named 'testRGBColor' in the database.
+</StdOut>
+    </Output>
+  </ResultSummary>
+  <Times creation="2021-06-15T20:04:26.1380000+02:00" queuing="2021-06-15T20:04:26.5710000+02:00" start="2021-06-15T20:04:26.7200000+02:00" finish="2021-06-15T20:04:27.5860000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="TestQFGetA" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="186f1b62-9173-bebe-5edd-7133ae1cc09d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="002eb229-2e1b-4cde-98ef-a61f7df9a209" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestQuadraticFunction, TestProject" name="TestQFGetA" />
+    </UnitTest>
+    <UnitTest name="TestQFGetC" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="b16e7e89-d1c2-004c-927b-a54aa5325541">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1eee856a-9bd5-45aa-966a-93817a637690" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestQuadraticFunction, TestProject" name="TestQFGetC" />
+    </UnitTest>
+    <UnitTest name="TestLicenceSetDate" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="bb5511aa-1a3b-f10d-173c-32ead277c471">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="efa6ed7f-04a0-42de-bcc7-3a505e503f59" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestLicence, TestProject" name="TestLicenceSetDate" />
+    </UnitTest>
+    <UnitTest name="TestLicenceCategory" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="04465a46-30f2-fc3c-125f-511bd334e80b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5c7f71f8-6ed8-4d55-9ee2-398d53802e61" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestLicence, TestProject" name="TestLicenceCategory" />
+    </UnitTest>
+    <UnitTest name="TestLicenceDate" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="0b9f4946-b54b-47da-a63b-9a6ad262bc18">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1b48cb1f-9dc1-4874-b44a-e225a2e176f0" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestLicence, TestProject" name="TestLicenceDate" />
+    </UnitTest>
+    <UnitTest name="TestCarPlateProvince" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="66faaddd-b33a-c7e8-4951-f0338dbd3a08">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="97ad309d-a538-41e4-8fd1-6f890839b15b" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestCarPlate, TestProject" name="TestCarPlateProvince" />
+    </UnitTest>
+    <UnitTest name="TestQFIsEquals" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="ca8333e6-19f1-b5ba-7675-0bf8d3e81f9d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="76c58dd2-ae54-4c4d-84e3-03972c3aa88e" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestQuadraticFunction, TestProject" name="TestQFIsEquals" />
+    </UnitTest>
+    <UnitTest name="TestMyEmailSameUser" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="ab7655e3-8426-fa4e-6af7-caaad70ffc7a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="279e60e4-fefe-476b-afe0-75bbd6b31f7b" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestMyEmail, TestProject" name="TestMyEmailSameUser" />
+    </UnitTest>
+    <UnitTest name="TestQFCountMaxMin" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="17998604-412a-8be4-2b8b-93e66128ac2d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="213b3b88-f285-421f-9eee-e33ec8a6b25f" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestQuadraticFunction, TestProject" name="TestQFCountMaxMin" />
+    </UnitTest>
+    <UnitTest name="TestMyEmailToString" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="cf170ac7-d16c-4f73-2bf0-e3aa1db8d08b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7be95627-acc0-430b-a90c-d6458e496bca" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestMyEmail, TestProject" name="TestMyEmailToString" />
+    </UnitTest>
+    <UnitTest name="TestQFToString" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="243e91bb-e65b-fa13-6d38-d3cb12dc83c7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5cb0bca2-4a04-4e08-b1d1-da73c18383d1" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestQuadraticFunction, TestProject" name="TestQFToString" />
+    </UnitTest>
+    <UnitTest name="TestQFGetB" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="7b9ac5fb-52f9-8d7f-532f-ba2ccfbfd59a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5242991c-a81d-4d12-a5e0-26a2c776b7c9" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestQuadraticFunction, TestProject" name="TestQFGetB" />
+    </UnitTest>
+    <UnitTest name="TestMyEmailSameUser" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="b7b536cc-4349-c665-4b95-a8867304852c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fabf7101-23e0-4f4f-874a-d8b9d453fe73" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestCarPlate, TestProject" name="TestMyEmailSameUser" />
+    </UnitTest>
+    <UnitTest name="TestMyEmailChangeHost" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="c1d0cf64-6dd0-2479-581f-f16a3867a8ce">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="63d369ef-e5c7-473c-a01c-186879cf5da8" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestMyEmail, TestProject" name="TestMyEmailChangeHost" />
+    </UnitTest>
+    <UnitTest name="TestRGBColorIsEquals" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="c896915c-dba9-1a42-1ab4-5937a105a3a2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5a7fadb4-0eb2-4818-8e84-daeac64612e0" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestRGBColor, TestProject" name="TestRGBColorIsEquals" />
+    </UnitTest>
+    <UnitTest name="TestRGBColorToString" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="6555fe09-232a-2db8-9572-82f6ed602158">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1a0b123c-e4eb-400c-8778-4e4a017bdb48" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestRGBColor, TestProject" name="TestRGBColorToString" />
+    </UnitTest>
+    <UnitTest name="TestMyEmailHost" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="45dcc9a5-40b6-2a23-1c49-398e17984ac9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="78650a0e-1252-498d-8aba-7ca57ed308f8" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestMyEmail, TestProject" name="TestMyEmailHost" />
+    </UnitTest>
+    <UnitTest name="TestRGBColorB" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="dbac55ef-8578-d94b-3844-136000642542">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="57253c12-f69b-4f9a-9c8d-17a30ef833c1" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestRGBColor, TestProject" name="TestRGBColorB" />
+    </UnitTest>
+    <UnitTest name="TestRGBColorG" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="1b1b5f95-3a22-323b-d233-7d627e9fbd8a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1f30f47f-d11e-4923-a19a-4b80c38385e0" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestRGBColor, TestProject" name="TestRGBColorG" />
+    </UnitTest>
+    <UnitTest name="TestMyEmailUsername" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="b28ceb0f-9bd6-cccd-8f2b-ab3496c146fb">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0f4d87ea-ae43-4848-9410-29e4b3493d2d" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestMyEmail, TestProject" name="TestMyEmailUsername" />
+    </UnitTest>
+    <UnitTest name="TestRGBColorR" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="0283d3bb-da66-af3f-2b29-2ec8a740e184">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="76c320c6-ff76-4cca-a6bf-b943a8afdbf3" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestRGBColor, TestProject" name="TestRGBColorR" />
+    </UnitTest>
+    <UnitTest name="TestCarPlateToString" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="c012ad93-67d4-ed04-ae6a-743ab2584856">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b548a0b4-88cb-40e5-90b1-58166bea443e" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestCarPlate, TestProject" name="TestCarPlateToString" />
+    </UnitTest>
+    <UnitTest name="TestLicenceToString" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="d09df132-a410-97ea-bab1-db173665cd08">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9cb0766c-7fa9-42b1-bba9-14f51a725a3b" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestLicence, TestProject" name="TestLicenceToString" />
+    </UnitTest>
+    <UnitTest name="TestRGBColorAdd" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="eeaeb523-7d26-0e1d-3071-75d9df211c8f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a1bb121b-96e0-47fb-9d7d-83ad88aeafe0" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestRGBColor, TestProject" name="TestRGBColorAdd" />
+    </UnitTest>
+    <UnitTest name="TestCarPlateNumber" storage="c:\users\administrator\desktop\project\testproject\bin\debug\testproject.dll" id="aed30aa9-a98a-df1d-e554-00aa57416ea1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2f0fb53c-6c81-4b12-9cbc-5cdd9057d453" />
+      <TestMethod codeBase="C:\Users\Administrator\Desktop\Project\TestProject\bin\Debug\TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTests.TestCarPlate, TestProject" name="TestCarPlateNumber" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0283d3bb-da66-af3f-2b29-2ec8a740e184" executionId="76c320c6-ff76-4cca-a6bf-b943a8afdbf3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04465a46-30f2-fc3c-125f-511bd334e80b" executionId="5c7f71f8-6ed8-4d55-9ee2-398d53802e61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b9f4946-b54b-47da-a63b-9a6ad262bc18" executionId="1b48cb1f-9dc1-4874-b44a-e225a2e176f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17998604-412a-8be4-2b8b-93e66128ac2d" executionId="213b3b88-f285-421f-9eee-e33ec8a6b25f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="186f1b62-9173-bebe-5edd-7133ae1cc09d" executionId="002eb229-2e1b-4cde-98ef-a61f7df9a209" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b1b5f95-3a22-323b-d233-7d627e9fbd8a" executionId="1f30f47f-d11e-4923-a19a-4b80c38385e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="243e91bb-e65b-fa13-6d38-d3cb12dc83c7" executionId="5cb0bca2-4a04-4e08-b1d1-da73c18383d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45dcc9a5-40b6-2a23-1c49-398e17984ac9" executionId="78650a0e-1252-498d-8aba-7ca57ed308f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6555fe09-232a-2db8-9572-82f6ed602158" executionId="1a0b123c-e4eb-400c-8778-4e4a017bdb48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66faaddd-b33a-c7e8-4951-f0338dbd3a08" executionId="97ad309d-a538-41e4-8fd1-6f890839b15b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b9ac5fb-52f9-8d7f-532f-ba2ccfbfd59a" executionId="5242991c-a81d-4d12-a5e0-26a2c776b7c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab7655e3-8426-fa4e-6af7-caaad70ffc7a" executionId="279e60e4-fefe-476b-afe0-75bbd6b31f7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aed30aa9-a98a-df1d-e554-00aa57416ea1" executionId="2f0fb53c-6c81-4b12-9cbc-5cdd9057d453" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b16e7e89-d1c2-004c-927b-a54aa5325541" executionId="1eee856a-9bd5-45aa-966a-93817a637690" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b28ceb0f-9bd6-cccd-8f2b-ab3496c146fb" executionId="0f4d87ea-ae43-4848-9410-29e4b3493d2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7b536cc-4349-c665-4b95-a8867304852c" executionId="fabf7101-23e0-4f4f-874a-d8b9d453fe73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb5511aa-1a3b-f10d-173c-32ead277c471" executionId="efa6ed7f-04a0-42de-bcc7-3a505e503f59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c012ad93-67d4-ed04-ae6a-743ab2584856" executionId="b548a0b4-88cb-40e5-90b1-58166bea443e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1d0cf64-6dd0-2479-581f-f16a3867a8ce" executionId="63d369ef-e5c7-473c-a01c-186879cf5da8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c896915c-dba9-1a42-1ab4-5937a105a3a2" executionId="5a7fadb4-0eb2-4818-8e84-daeac64612e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca8333e6-19f1-b5ba-7675-0bf8d3e81f9d" executionId="76c58dd2-ae54-4c4d-84e3-03972c3aa88e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf170ac7-d16c-4f73-2bf0-e3aa1db8d08b" executionId="7be95627-acc0-430b-a90c-d6458e496bca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d09df132-a410-97ea-bab1-db173665cd08" executionId="9cb0766c-7fa9-42b1-bba9-14f51a725a3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbac55ef-8578-d94b-3844-136000642542" executionId="57253c12-f69b-4f9a-9c8d-17a30ef833c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eeaeb523-7d26-0e1d-3071-75d9df211c8f" executionId="a1bb121b-96e0-47fb-9d7d-83ad88aeafe0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="76c320c6-ff76-4cca-a6bf-b943a8afdbf3" testId="0283d3bb-da66-af3f-2b29-2ec8a740e184" testName="TestRGBColorR" computerName="MSSQLSERVER39" duration="00:00:00.0760301" startTime="2021-06-15T20:04:26.7800000+02:00" endTime="2021-06-15T20:04:27.0620000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;22&gt;. Actual:&lt;100&gt;. </Message>
+          <StackTrace>   w UnitTests.TestRGBColor.TestRGBColorR() w C:\Users\Administrator\Desktop\Project\TestProject\TestRGBColor.cs:wiersz 110
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5c7f71f8-6ed8-4d55-9ee2-398d53802e61" testId="04465a46-30f2-fc3c-125f-511bd334e80b" testName="TestLicenceCategory" computerName="MSSQLSERVER39" duration="00:00:00.0045464" startTime="2021-06-15T20:04:27.1090000+02:00" endTime="2021-06-15T20:04:27.1270000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1b48cb1f-9dc1-4874-b44a-e225a2e176f0" testId="0b9f4946-b54b-47da-a63b-9a6ad262bc18" testName="TestLicenceDate" computerName="MSSQLSERVER39" duration="00:00:00.0036896" startTime="2021-06-15T20:04:27.1310000+02:00" endTime="2021-06-15T20:04:27.1380000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="213b3b88-f285-421f-9eee-e33ec8a6b25f" testId="17998604-412a-8be4-2b8b-93e66128ac2d" testName="TestQFCountMaxMin" computerName="MSSQLSERVER39" duration="00:00:00.0067859" startTime="2021-06-15T20:04:27.1410000+02:00" endTime="2021-06-15T20:04:27.1580000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="002eb229-2e1b-4cde-98ef-a61f7df9a209" testId="186f1b62-9173-bebe-5edd-7133ae1cc09d" testName="TestQFGetA" computerName="MSSQLSERVER39" duration="00:00:00.0017689" startTime="2021-06-15T20:04:27.1620000+02:00" endTime="2021-06-15T20:04:27.1660000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Invalid column name 'QuadFunID'.
+The multi-part identifier "QuadFun.A" could not be bound.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f30f47f-d11e-4923-a19a-4b80c38385e0" testId="1b1b5f95-3a22-323b-d233-7d627e9fbd8a" testName="TestRGBColorG" computerName="MSSQLSERVER39" duration="00:00:00.0055611" startTime="2021-06-15T20:04:27.1690000+02:00" endTime="2021-06-15T20:04:27.1780000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;85&gt;. Actual:&lt;150&gt;. </Message>
+          <StackTrace>   w UnitTests.TestRGBColor.TestRGBColorG() w C:\Users\Administrator\Desktop\Project\TestProject\TestRGBColor.cs:wiersz 133
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5cb0bca2-4a04-4e08-b1d1-da73c18383d1" testId="243e91bb-e65b-fa13-6d38-d3cb12dc83c7" testName="TestQFToString" computerName="MSSQLSERVER39" duration="00:00:00.0034133" startTime="2021-06-15T20:04:27.2090000+02:00" endTime="2021-06-15T20:04:27.2160000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="78650a0e-1252-498d-8aba-7ca57ed308f8" testId="45dcc9a5-40b6-2a23-1c49-398e17984ac9" testName="TestMyEmailHost" computerName="MSSQLSERVER39" duration="00:00:00.0039018" startTime="2021-06-15T20:04:27.2180000+02:00" endTime="2021-06-15T20:04:27.2310000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1a0b123c-e4eb-400c-8778-4e4a017bdb48" testId="6555fe09-232a-2db8-9572-82f6ed602158" testName="TestRGBColorToString" computerName="MSSQLSERVER39" duration="00:00:00.0045947" startTime="2021-06-15T20:04:27.2330000+02:00" endTime="2021-06-15T20:04:27.2400000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="97ad309d-a538-41e4-8fd1-6f890839b15b" testId="66faaddd-b33a-c7e8-4951-f0338dbd3a08" testName="TestCarPlateProvince" computerName="MSSQLSERVER39" duration="00:00:00.0039544" startTime="2021-06-15T20:04:27.2430000+02:00" endTime="2021-06-15T20:04:27.2570000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5242991c-a81d-4d12-a5e0-26a2c776b7c9" testId="7b9ac5fb-52f9-8d7f-532f-ba2ccfbfd59a" testName="TestQFGetB" computerName="MSSQLSERVER39" duration="00:00:00.0040620" startTime="2021-06-15T20:04:27.2610000+02:00" endTime="2021-06-15T20:04:27.2750000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Invalid column name 'QuadFunID'.
+The multi-part identifier "QuadFun.B" could not be bound.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="279e60e4-fefe-476b-afe0-75bbd6b31f7b" testId="ab7655e3-8426-fa4e-6af7-caaad70ffc7a" testName="TestMyEmailSameUser" computerName="MSSQLSERVER39" duration="00:00:00.0050248" startTime="2021-06-15T20:04:27.2790000+02:00" endTime="2021-06-15T20:04:27.2870000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f0fb53c-6c81-4b12-9cbc-5cdd9057d453" testId="aed30aa9-a98a-df1d-e554-00aa57416ea1" testName="TestCarPlateNumber" computerName="MSSQLSERVER39" duration="00:00:00.0037448" startTime="2021-06-15T20:04:27.2900000+02:00" endTime="2021-06-15T20:04:27.2970000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1eee856a-9bd5-45aa-966a-93817a637690" testId="b16e7e89-d1c2-004c-927b-a54aa5325541" testName="TestQFGetC" computerName="MSSQLSERVER39" duration="00:00:00.0015302" startTime="2021-06-15T20:04:27.3000000+02:00" endTime="2021-06-15T20:04:27.3040000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Invalid column name 'QuadFunID'.
+The multi-part identifier "QuadFun.C" could not be bound.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0f4d87ea-ae43-4848-9410-29e4b3493d2d" testId="b28ceb0f-9bd6-cccd-8f2b-ab3496c146fb" testName="TestMyEmailUsername" computerName="MSSQLSERVER39" duration="00:00:00.0032001" startTime="2021-06-15T20:04:27.3070000+02:00" endTime="2021-06-15T20:04:27.3120000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fabf7101-23e0-4f4f-874a-d8b9d453fe73" testId="b7b536cc-4349-c665-4b95-a8867304852c" testName="TestMyEmailSameUser" computerName="MSSQLSERVER39" duration="00:00:00.0017027" startTime="2021-06-15T20:04:27.3150000+02:00" endTime="2021-06-15T20:04:27.3190000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Invalid object name 'testCarPlate'.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="efa6ed7f-04a0-42de-bcc7-3a505e503f59" testId="bb5511aa-1a3b-f10d-173c-32ead277c471" testName="TestLicenceSetDate" computerName="MSSQLSERVER39" duration="00:00:00.0074343" startTime="2021-06-15T20:04:27.3220000+02:00" endTime="2021-06-15T20:04:27.3320000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b548a0b4-88cb-40e5-90b1-58166bea443e" testId="c012ad93-67d4-ed04-ae6a-743ab2584856" testName="TestCarPlateToString" computerName="MSSQLSERVER39" duration="00:00:00.0016571" startTime="2021-06-15T20:04:27.3350000+02:00" endTime="2021-06-15T20:04:27.3390000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>Invalid object name 'testCarPlate'.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="63d369ef-e5c7-473c-a01c-186879cf5da8" testId="c1d0cf64-6dd0-2479-581f-f16a3867a8ce" testName="TestMyEmailChangeHost" computerName="MSSQLSERVER39" duration="00:00:00.0090528" startTime="2021-06-15T20:04:27.3420000+02:00" endTime="2021-06-15T20:04:27.3540000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5a7fadb4-0eb2-4818-8e84-daeac64612e0" testId="c896915c-dba9-1a42-1ab4-5937a105a3a2" testName="TestRGBColorIsEquals" computerName="MSSQLSERVER39" duration="00:00:00.0155516" startTime="2021-06-15T20:04:27.3570000+02:00" endTime="2021-06-15T20:04:27.3750000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="76c58dd2-ae54-4c4d-84e3-03972c3aa88e" testId="ca8333e6-19f1-b5ba-7675-0bf8d3e81f9d" testName="TestQFIsEquals" computerName="MSSQLSERVER39" duration="00:00:00.0039664" startTime="2021-06-15T20:04:27.3790000+02:00" endTime="2021-06-15T20:04:27.3860000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7be95627-acc0-430b-a90c-d6458e496bca" testId="cf170ac7-d16c-4f73-2bf0-e3aa1db8d08b" testName="TestMyEmailToString" computerName="MSSQLSERVER39" duration="00:00:00.0026874" startTime="2021-06-15T20:04:27.3880000+02:00" endTime="2021-06-15T20:04:27.3940000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9cb0766c-7fa9-42b1-bba9-14f51a725a3b" testId="d09df132-a410-97ea-bab1-db173665cd08" testName="TestLicenceToString" computerName="MSSQLSERVER39" duration="00:00:00.0027869" startTime="2021-06-15T20:04:27.3970000+02:00" endTime="2021-06-15T20:04:27.4030000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="57253c12-f69b-4f9a-9c8d-17a30ef833c1" testId="dbac55ef-8578-d94b-3844-136000642542" testName="TestRGBColorB" computerName="MSSQLSERVER39" duration="00:00:00.0049955" startTime="2021-06-15T20:04:27.4060000+02:00" endTime="2021-06-15T20:04:27.4140000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;244&gt;. Actual:&lt;255&gt;. </Message>
+          <StackTrace>   w UnitTests.TestRGBColor.TestRGBColorB() w C:\Users\Administrator\Desktop\Project\TestProject\TestRGBColor.cs:wiersz 156
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a1bb121b-96e0-47fb-9d7d-83ad88aeafe0" testId="eeaeb523-7d26-0e1d-3071-75d9df211c8f" testName="TestRGBColorAdd" computerName="MSSQLSERVER39" duration="00:00:00.0062760" startTime="2021-06-15T20:04:27.4210000+02:00" endTime="2021-06-15T20:04:27.4300000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

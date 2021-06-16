@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\Project\TerminalProject\bin\Debug\TerminalProject.exe
+C:\Users\Administrator\Desktop\Project\TerminalProject\bin\Debug\TerminalProject.pdb
+C:\Users\Administrator\Desktop\Project\TerminalProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project\TerminalProject\obj\Debug\TerminalProject.exe
+C:\Users\Administrator\Desktop\Project\TerminalProject\obj\Debug\TerminalProject.pdb
